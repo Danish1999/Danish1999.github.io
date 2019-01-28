@@ -6,17 +6,18 @@
 /*
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
+  getStats();
 });
 */
 
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
-  
+
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 80,
         "density": {
           "enable": true,
           "value_area": 800
@@ -55,7 +56,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 42,
+          "speed": 40,
           "size_min": 0.1,
           "sync": false
         }
@@ -63,13 +64,13 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#31ff9b",
-        "opacity": 0.8,
+        "color": "#ffffff",
+        "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 3,
+        "speed": 6,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -87,11 +88,11 @@ particlesJS('particles-js',
         "onhover": {
           "enable": true,
           "mode": "repulse",
-	          "parallax": {
-	            "enable": true,
-	            "force": 60,
-	            "smooth": 10
-	          }
+          "parallax": {
+            "enable": true,
+            "force": 60,
+            "smooth": 10
+          }
         },
         "onclick": {
           "enable": true,
@@ -101,7 +102,7 @@ particlesJS('particles-js',
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 200,
           "line_linked": {
             "opacity": 1
           }
@@ -110,7 +111,7 @@ particlesJS('particles-js',
           "distance": 400,
           "size": 40,
           "duration": 2,
-          "opacity": 8,
+          "opacity": 0.8,
           "speed": 3
         },
         "repulse": {
