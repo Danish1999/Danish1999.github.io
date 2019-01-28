@@ -86,7 +86,12 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse",
+	          "parallax": {
+	            "enable": true,
+	            "force": 60,
+	            "smooth": 10
+	          }
         },
         "onclick": {
           "enable": true,
